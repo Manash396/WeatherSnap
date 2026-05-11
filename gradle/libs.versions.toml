@@ -12,6 +12,7 @@ ksp = "2.3.2"
 hilt = "2.59.2"
 retrofit = "3.0.0"
 converterGson = "3.0.0"
+room_version = "2.8.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -32,6 +33,8 @@ hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt"
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+androidx-room-compiler = {group = "androidx.room", name = "room-compiler", version.ref = "room_version"}
+androidx-room-runtime = {group = "androidx.room", name = "room-runtime", version.ref = "room_version"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
